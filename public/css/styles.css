@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#ip-info-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#ip-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#ip-info-table th, #ip-info-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#ip-info-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#ip-info-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#ip-info-table tr:hover {
+    background-color: #ddd;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
